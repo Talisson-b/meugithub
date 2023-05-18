@@ -1,10 +1,9 @@
 $(document).ready(function() {  
-    const endpoint = 'https://api.github.com/user'
-    const token = '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'
+    const endpoint = 'https://api.github.com/users/Talisson-b'
+    
 
-    // Defina o seu Personal Access Token aqui
 
-fetch(endpoint, { headers: { Authorization: `Token ${token}`}})
+fetch(endpoint)
 
 .then(resposta => resposta.json() )
 .then(data => {
