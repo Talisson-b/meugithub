@@ -1,6 +1,6 @@
 $(document).ready(function() {  
-    const endpoint = `https://api.github.com/user`
-    const token = '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'
+    const endpoint = 'https://api.github.com/user'
+    const token = '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'
 
     // Defina o seu Personal Access Token aqui
 
